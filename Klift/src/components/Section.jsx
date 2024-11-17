@@ -5,9 +5,9 @@ function Section() {
 
     useEffect(() => {
         AOS.init({
-            duration: 1000, // Animasiya müddəti (ms ilə)
-            easing: 'ease-in-out', // Animasiya tipi
-            once: true, // Hər dəfə scroll edəndə yox, yalnız bir dəfə animasiya
+            duration: 1000, 
+            easing: 'ease-in-out', 
+            once: true, 
         });
     }, []);
 

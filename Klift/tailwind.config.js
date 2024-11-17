@@ -6,8 +6,18 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'Pt-Sans': ['PT Sans', 'sans-serif']
+      },
+      backgroundImage:{
+        'coutup':'url("./images/countup.png")'
+      },
       width: {
-        'slider-width':'80%'
+        'slider-width': '80%',
+        'icon':'100px'
+      },
+      backgroundColor:{
+        'icon':'rgb(240, 199, 197)'
       }
     },
   },

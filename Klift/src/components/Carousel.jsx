@@ -1,8 +1,18 @@
 import React, { useState, useEffect } from "react";
 import slide1 from "../images/slide-img1.png";
 import slide2 from "../images/slide-img2.png";
+import AOS from 'aos';
 
 function Carousel() {
+
+  useEffect(() => {
+    AOS.init({
+        duration: 1000, // Animasiya müddəti (ms ilə)
+        easing: 'ease-in-out', // Animasiya tipi
+        once: true, // Hər dəfə scroll edəndə yox, yalnız bir dəfə animasiya
+    });
+}, []);
+
   const [currentSlide, setCurrentSlide] = useState(0);
   const slides = [slide1, slide2];
 
@@ -34,7 +44,7 @@ function Carousel() {
 
       <div className="absolute inset-0 bg-black bg-opacity-30"></div>
 
-      <div className="relative flex flex-col items-center justify-center h-full text-center text-white">
+      <div data-aos="fade-up" className="relative flex flex-col items-center justify-center h-full text-center text-white">
         <div className="rounded-lg">
           <h1 className="text-5xl font-bold mb-4">Transforming Spaces with Elegance</h1>
           <p className="text-lg mb-8 w-slider-width ms-auto me-auto">

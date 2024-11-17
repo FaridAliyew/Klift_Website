@@ -1,3 +1,29 @@
+body{
+    height: 500vh;
+}
+
+/* Bütün scrollbar üçün */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #444;
+    /* Barmağın rəngi */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #222;
+    /* Hover zamanı */
+}
+
+::-webkit-scrollbar-track {
+    background: #121212;
+    /* Track-in rəngi */
+}
+
+
 .hamburger-inner,
 .hamburger-inner::before,
 .hamburger-inner::after {
@@ -18,6 +44,3 @@
     background-position: center;
     transform: translateY(-20%);
 }
-// nav{
-//     background-color: rgba(0, 0, 0, 0.509);
-// }

@@ -20,7 +20,7 @@ function SectionTwo() {
             </div>
 
             <div data-aos="fade-up" className='w-full lg:w-1/2'>
-                <h1 className='text-2xl uppercase text-gray-400'>About</h1>
+                <h1 className='text-2xl uppercase text-gray-400 mb-3'>About</h1>
                 <p className='font-bold text-3xl text-gray-700'>We are the best interior & Architect Consultant in Italy</p> <br />
 
                 <hr className='border-pink-300 border-solid border-1' /> <br />

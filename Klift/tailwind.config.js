@@ -9,15 +9,22 @@ export default {
       fontFamily: {
         'Pt-Sans': ['PT Sans', 'sans-serif']
       },
-      backgroundImage:{
-        'coutup':'url("./images/countup.png")'
+      backgroundImage: {
+        'coutup': 'url("./images/countup.png")',
+        'interior1': 'url("./images/interior1.png")',
+        'interior2': 'url("./images/interior2.png")',
+        'interior3': 'url("./images/interior3.png")',
+        'interior4': 'url("./images/interior4.png")',
       },
       width: {
         'slider-width': '80%',
-        'icon':'100px'
+        'icon': '100px',
       },
-      backgroundColor:{
-        'icon':'rgb(240, 199, 197)'
+      height: {
+        'interior':'580px'
+      },
+      backgroundColor: {
+        'icon': 'rgb(240, 199, 197)'
       }
     },
   },

@@ -19,7 +19,7 @@ function App() {
       <SectionTwo />
       <Countupp />
       <OfficeInterior />
-      {/* <Swiper /> */}
+      <Swiper />
     </>
   )
 }

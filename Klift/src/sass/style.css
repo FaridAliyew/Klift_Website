@@ -1,27 +1,22 @@
-@charset "UTF-8";
 body {
-  height: 500vh;
+  height: 800vh;
 }
 
-/* Bütün scrollbar üçün */
 ::-webkit-scrollbar {
   width: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
   background: #444;
-  /* Barmağın rəngi */
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
   background: #222;
-  /* Hover zamanı */
 }
 
 ::-webkit-scrollbar-track {
   background: #121212;
-  /* Track-in rəngi */
 }
 
 .hamburger-inner,
@@ -43,4 +38,8 @@ body {
   background-size: cover;
   background-position: center;
   transform: translateY(-20%);
+}
+
+.swiper-wrapper {
+  height: 350px;
 }/*# sourceMappingURL=style.css.map */

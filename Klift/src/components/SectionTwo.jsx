@@ -19,7 +19,7 @@ function SectionTwo() {
                 <div className="absolute inset-0 bg-gradient-to-r from-white to-transparent"></div>
             </div>
 
-            <div data-aos="fade-up" className='w-full lg:w-1/2'>
+            <div data-aos="fade-up" data-aos-delay="200" className='w-full lg:w-1/2'>
                 <h1 className='text-2xl uppercase text-gray-400 mb-3'>About</h1>
                 <p className='font-bold text-3xl text-gray-700'>We are the best interior & Architect Consultant in Italy</p> <br />
 

@@ -1,4 +1,4 @@
-body{
+body {
     height: 800vh;
 }
 
@@ -39,4 +39,8 @@ body{
     background-size: cover;
     background-position: center;
     transform: translateY(-20%);
+}
+
+.swiper-wrapper{
+    height: 350px;
 }

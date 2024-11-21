@@ -5,6 +5,7 @@ import OfficeInterior from "./components/OfficeInterior";
 import Section from "./components/Section";
 import SectionTwo from "./components/SectionTwo";
 import Swiper from "./components/Swiper";
+import About from "./pages/About";
 import './sass/style.scss';
 import 'aos/dist/aos.css';
 
@@ -20,6 +21,7 @@ function App() {
       <Countupp />
       <OfficeInterior />
       <Swiper />
+      <About/>
     </>
   )
 }

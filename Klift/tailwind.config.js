@@ -15,6 +15,8 @@ export default {
         'interior2': 'url("./images/interior2.png")',
         'interior3': 'url("./images/interior3.png")',
         'interior4': 'url("./images/interior4.png")',
+        'img':'url("./images/img.png")',
+        
       },
       width: {
         'slider-width': '80%',

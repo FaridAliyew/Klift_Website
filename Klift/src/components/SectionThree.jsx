@@ -1,27 +1,23 @@
 import React, { useEffect } from 'react'
-import about from '../images/about.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 
-function SectionTwo() {
+function SectionThree() {
+
     useEffect(() => {
         AOS.init({
-            duration: 800, 
-            easing: 'ease-in-out', 
-            once: true, 
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true,
         });
     }, []);
 
     return (
-        <section className='px-5 lg:px-20 mt-44 flex flex-col lg:flex-row gap-20'>
-            <div className="relative">
-                <img src={about} alt="Plan" className="w-full h-full" />
-                <div className="absolute inset-0 bg-gradient-to-r from-white to-transparent"></div>
-            </div>
+        <section className='px-5 lg:px-20 mt-72 flex flex-col lg:flex-row gap-20'>
 
-            <div data-aos="fade-up" data-aos-delay="200" className='w-full lg:w-1/2'>
-                <h1 className='text-2xl uppercase text-gray-400 mb-3'>About</h1>
-                <p className='font-bold text-3xl text-gray-700'>We are the best interior & Architect Consultant in Italy</p> <br />
+            <div data-aos="fade-up" data-aos-delay="200" className='w-full lg:w-1/2 lg:order-1 order-2'>
+                <h1 className='text-2xl uppercase text-gray-400 mb-3'>Perfect</h1>
+                <p className='font-bold text-3xl text-gray-700'>We Make Perfection</p> <br />
 
                 <hr className='border-pink-300 border-solid border-1' /> <br />
 
@@ -31,8 +27,10 @@ function SectionTwo() {
 
                 <button className='text-pink-400'>Learn More</button>
             </div>
+
+            <div className="bg-img h-96 lg:h-interior w-full lg:w-2/5 bg-cover bg-center lg:order-2 order-1"></div>
         </section>
     )
 }
 
-export default SectionTwo
+export default SectionThree

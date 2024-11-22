@@ -3,6 +3,7 @@ import Countupp from "./components/Countupp";
 import Navbra from "./components/Navbra"
 import OfficeInterior from "./components/OfficeInterior";
 import Section from "./components/Section";
+import SectionThree from "./components/SectionThree";
 import SectionTwo from "./components/SectionTwo";
 import Swiper from "./components/Swiper";
 import About from "./pages/About";
@@ -22,6 +23,7 @@ function App() {
       <OfficeInterior />
       <Swiper />
       <About/>
+      <SectionThree/>
     </>
   )
 }

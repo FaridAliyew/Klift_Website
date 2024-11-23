@@ -1,5 +1,6 @@
 import Carousel from "./components/Carousel"
 import Countupp from "./components/Countupp";
+import Footer from "./components/Footer";
 import Navbra from "./components/Navbra"
 import OfficeInterior from "./components/OfficeInterior";
 import Section from "./components/Section";
@@ -24,6 +25,7 @@ function App() {
       <Swiper />
       <About/>
       <SectionThree/>
+      <Footer/>
     </>
   )
 }

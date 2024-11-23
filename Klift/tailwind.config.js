@@ -16,7 +16,6 @@ export default {
         'interior3': 'url("./images/interior3.png")',
         'interior4': 'url("./images/interior4.png")',
         'img':'url("./images/img.png")',
-        
       },
       width: {
         'slider-width': '80%',
@@ -26,8 +25,9 @@ export default {
         'interior':'580px'
       },
       backgroundColor: {
-        'icon': 'rgb(240, 199, 197)'
-      }
+        'icon': 'rgb(240, 199, 197)',
+        'footer':'#141313',
+      },
     },
   },
   plugins: [],

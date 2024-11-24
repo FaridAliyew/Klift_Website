@@ -19,7 +19,7 @@ function About() {
     }, []);
 
     return (
-        <div className="mt-56">
+        <div className="mt-56 mb-52">
             <div className="text-center">
                 <h1 className="text-4xl font-bold text-gray-700">Our Architect Team</h1>
                 <p>

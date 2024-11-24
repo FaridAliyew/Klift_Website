@@ -16,13 +16,15 @@ export default {
         'interior3': 'url("./images/interior3.png")',
         'interior4': 'url("./images/interior4.png")',
         'img':'url("./images/img.png")',
+        'entrance':'url("./images/furniture.png")'
       },
       width: {
         'slider-width': '80%',
         'icon': '100px',
       },
       height: {
-        'interior':'580px'
+        'interior':'580px',
+        'entrance':'100vh',
       },
       backgroundColor: {
         'icon': 'rgb(240, 199, 197)',

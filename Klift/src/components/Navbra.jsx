@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import 'hamburgers/dist/hamburgers.css';
 
 const Navbar = () => {
@@ -10,12 +11,12 @@ const Navbar = () => {
         <div className="text-white text-2xl font-bold">Klift</div>
 
         <div className="hidden md:flex space-x-8">
-          <a href="#home" className="text-white hover:text-gray-400">Home</a>
-          <a href="#about" className="text-white hover:text-gray-400">About</a>
-          <a href="#projects" className="text-white hover:text-gray-400">Projects</a>
-          <a href="#services" className="text-white hover:text-gray-400">Services</a>
-          <a href="#blog" className="text-white hover:text-gray-400">Blog</a>
-          <a href="#contact" className="text-white hover:text-gray-400">Contact</a>
+          <Link to="/" className="text-white hover:text-gray-400">Home</Link>
+          <Link to="/about" className="text-white hover:text-gray-400">About</Link>
+          <Link to="/projects" className="text-white hover:text-gray-400">Projects</Link>
+          <Link to="/services" className="text-white hover:text-gray-400">Services</Link>
+          <Link to="/blog" className="text-white hover:text-gray-400">Blog</Link>
+          <Link to="/contact" className="text-white hover:text-gray-400">Contact</Link>
         </div>
 
         <div className="md:hidden flex items-center">
@@ -35,12 +36,12 @@ const Navbar = () => {
       >
         {isMenuOpen && (
           <>
-            <a href="#home" className="hover:text-gray-400">Home</a>
-            <a href="#about" className="hover:text-gray-400">About</a>
-            <a href="#projects" className="hover:text-gray-400">Projects</a>
-            <a href="#services" className="hover:text-gray-400">Services</a>
-            <a href="#blog" className="hover:text-gray-400">Blog</a>
-            <a href="#contact" className="hover:text-gray-400">Contact</a>
+            <Link to="/home" className="hover:text-gray-400">Home</Link>
+            <Link to="/about" className="hover:text-gray-400">About</Link>
+            <Link to="/projects" className="hover:text-gray-400">Projects</Link>
+            <Link to="/services" className="hover:text-gray-400">Services</Link>
+            <Link to="/blog" className="hover:text-gray-400">Blog</Link>
+            <Link to="/contact" className="hover:text-gray-400">Contact</Link>
           </>
         )}
       </div>

@@ -1,3 +1,4 @@
+import { Route, Routes } from "react-router-dom";
 import Carousel from "./components/Carousel"
 import Countupp from "./components/Countupp";
 import Footer from "./components/Footer";
@@ -10,6 +11,7 @@ import Swiper from "./components/Swiper";
 import About from "./pages/About";
 import './sass/style.scss';
 import 'aos/dist/aos.css';
+import Entrance from "./pages/Entrance";
 
 
 function App() {
@@ -17,15 +19,31 @@ function App() {
   return (
     <>
       <Navbra />
-      <Carousel />
-      <Section />
-      <SectionTwo />
-      <Countupp />
-      <OfficeInterior />
-      <Swiper />
-      <About/>
-      <SectionThree/>
-      <Footer/>
+
+      <Routes>
+        <Route path="/" element={
+          <>
+            <Carousel />
+            <Section />
+            <SectionTwo />
+            <Countupp />
+            <OfficeInterior />
+            <Swiper />
+            <About />
+            <SectionThree />
+          </>
+        } />
+
+        <Route path="/about" element={
+          <>
+            {/* <About /> */}
+            <Entrance />
+          </>
+        } />
+
+      </Routes>
+
+      <Footer />
     </>
   )
 }

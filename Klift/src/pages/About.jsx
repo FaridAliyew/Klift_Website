@@ -68,9 +68,9 @@ function About() {
                         <img src={member.img} alt={member.name} className="w-full" />
                         <div className="absolute inset-0 flex items-end justify-center bg-gradient-to-t from-white/100 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                             <div className="flex gap-4 mb-4 cursor-pointer text-black text-2xl transform translate-y-full group-hover:translate-y-0 transition-transform duration-500">
-                                <BsTwitterX />
-                                <FaFacebookF />
-                                <GrInstagram />
+                                <BsTwitterX className='bg-pink-300/100 text-5xl p-3 rounded-full text-white'/>
+                                <FaFacebookF className='bg-pink-300/100 text-5xl p-3 rounded-full text-white'/>
+                                <GrInstagram className='bg-pink-300/100 text-5xl p-3 rounded-full text-white'/>
                             </div>
                         </div>
                         <h1 className="px-4 mt-3 text-2xl font-bold text-gray-700">{member.name}</h1>

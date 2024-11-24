@@ -30,6 +30,10 @@
     background-color: white;
 }
 
+.swiper-pagination-bullet{
+    background-color: rgb(247, 30, 255);
+}
+
 .parallax {
     background-attachment: fixed;
     background-size: cover;
@@ -37,6 +41,6 @@
     transform: translateY(-20%);
 }
 
-.swiper-wrapper{
-    height: 350px;
+.swiper-wrapper {
+    height: 450px;
 }

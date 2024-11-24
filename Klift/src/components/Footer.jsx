@@ -9,8 +9,8 @@ import { IoMail } from "react-icons/io5";
 function Footer() {
     return (
         <footer className='bg-footer'>
-            <div className='text-white grid grid-cols-1 lg:grid-cols-4 items-center justify-items-center px-16 h-auto lg:h-96'>
-                <div>
+            <div className='text-white grid grid-cols-1 lg:grid-cols-4 items-center md:justify-items-center px-16 h-auto lg:h-96'>
+                <div className='mt-16'>
                     <h1 className='text-[22px] mb-5'>Klift</h1>
                     <p className='text-gray-400'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                     <div className='icons flex gap-5 text-5xl mt-5'>
@@ -19,7 +19,7 @@ function Footer() {
                         <GrInstagram className='bg-gray-100/10 p-3 rounded-full' />
                     </div>
                 </div>
-                <div>
+                <div className='text-start md:text-center lg:text-center mt-10 lg:mt-0'>
                     <h1 className='text-[22px] mb-5'>Links</h1>
                     <p className='text-gray-400'>Home</p>
                     <p className='my-1 text-gray-400'>About</p>
@@ -27,7 +27,7 @@ function Footer() {
                     <p className='my-1 text-gray-400'>Project</p>
                     <p className='text-gray-400'>Contact</p>
                 </div>
-                <div>
+                <div className='text-start md:text-center mt-10 lg:mt-0 lg:text-start'>
                     <h1 className='text-[22px] mb-5'>Services</h1>
                     <p className='text-gray-400'>Architectural Design</p>
                     <p className='my-1 text-gray-400'>Interior Design</p>
@@ -35,7 +35,7 @@ function Footer() {
                     <p className='my-1 text-gray-400'>Lighting Design</p>
                     <p className='text-gray-400'>AutoCAD Service</p>
                 </div>
-                <div>
+                <div className='text-start md:text-center mt-10 lg:text-start lg:mt-0'>
                     <h1 className='text-[22px] mb-8'>Have a Questions?</h1>
                     <div className='flex'>
                         <IoLocationSharp className='text-[30px]' />

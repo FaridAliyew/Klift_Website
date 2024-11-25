@@ -12,6 +12,7 @@ import About from "./pages/About";
 import './sass/style.scss';
 import 'aos/dist/aos.css';
 import Entrance from "./pages/Entrance";
+import Projects from "./pages/Projects";
 
 
 function App() {
@@ -43,6 +44,13 @@ function App() {
             <About/>
           </>
         } />
+
+        <Route path="/projects" element={
+          <>
+            <Entrance/>
+            <Projects/>
+          </>
+        }/>
 
       </Routes>
 

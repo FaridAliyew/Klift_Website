@@ -15,6 +15,10 @@ export default {
         'interior2': 'url("./images/interior2.png")',
         'interior3': 'url("./images/interior3.png")',
         'interior4': 'url("./images/interior4.png")',
+        'interior5': 'url("./images/interior5.png")',
+        'interior6': 'url("./images/interior6.png")',
+        'interior7': 'url("./images/interior7.png")',
+        'interior8': 'url("./images/interior8.png")',
         'img':'url("./images/img.png")',
         'entrance':'url("./images/furniture.png")'
       },

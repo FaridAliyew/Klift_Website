@@ -3,8 +3,6 @@ import { Swiper as SwiperComponent, SwiperSlide } from "swiper/react";
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
 import img1 from '../images/person1.png';
 import img2 from '../images/person2.png';
@@ -13,13 +11,6 @@ import img4 from '../images/person4.png';
 import img5 from '../images/person5.png';
 
 const Swiper = () => {
-    useEffect(() => {
-        AOS.init({
-            duration: 1000,
-            easing: 'ease-in-out',
-            once: true,
-        });
-    }, []);
 
     const slides = [
         {

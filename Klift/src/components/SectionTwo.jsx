@@ -1,16 +1,8 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import about from '../images/about.png'
-import AOS from 'aos';
-import 'aos/dist/aos.css'; 
+
 
 function SectionTwo() {
-    useEffect(() => {
-        AOS.init({
-            duration: 800, 
-            easing: 'ease-in-out', 
-            once: true, 
-        });
-    }, []);
 
     return (
         <section className='px-5 lg:px-20 mt-44 flex flex-col lg:flex-row gap-20'>

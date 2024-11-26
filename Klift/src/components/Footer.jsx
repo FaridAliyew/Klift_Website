@@ -14,9 +14,9 @@ function Footer() {
                     <h1 className='text-[22px] mb-5'>Klift</h1>
                     <p className='text-gray-400'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                     <div className='icons flex gap-5 text-5xl mt-5'>
-                        <BsTwitterX className='bg-gray-100/10 p-3 rounded-full' />
-                        <FaFacebookF className='bg-gray-100/10 p-3 rounded-full' />
-                        <GrInstagram className='bg-gray-100/10 p-3 rounded-full' />
+                        <BsTwitterX data-aos="fade-up" data-aos-delay="50" className='bg-gray-100/10 p-3 rounded-full' />
+                        <FaFacebookF data-aos="fade-up" data-aos-delay="150" className='bg-gray-100/10 p-3 rounded-full' />
+                        <GrInstagram data-aos="fade-up" data-aos-delay="300" className='bg-gray-100/10 p-3 rounded-full' />
                     </div>
                 </div>
                 <div className='text-start md:text-center lg:text-center mt-10 lg:mt-0'>

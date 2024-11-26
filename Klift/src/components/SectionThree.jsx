@@ -1,16 +1,6 @@
 import React, { useEffect } from 'react'
-import AOS from 'aos';
-import 'aos/dist/aos.css'; 
 
 function SectionThree() {
-
-    useEffect(() => {
-        AOS.init({
-            duration: 800,
-            easing: 'ease-in-out',
-            once: true,
-        });
-    }, []);
 
     return (
         <section className='px-5 lg:px-20 mt-72 flex flex-col lg:flex-row gap-20'>

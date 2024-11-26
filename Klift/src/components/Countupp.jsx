@@ -1,19 +1,11 @@
 import React, { useEffect, useState, useRef } from "react";
 import CountUp from "react-countup";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 function Countupp() {
     const [startCount, setStartCount] = useState(false);
     const sectionRef = useRef(null);
 
     useEffect(() => {
-        AOS.init({
-            duration: 800,
-            easing: "ease-in-out",
-            once: true,
-        });
-
         const observer = new IntersectionObserver(
             (entries) => {
                 const entry = entries[0];

@@ -1,18 +1,8 @@
 import React, { useState, useEffect } from "react";
 import slide1 from "../images/slide-img1.png";
 import slide2 from "../images/slide-img2.png";
-import AOS from 'aos';
 
 function Carousel() {
-
-  useEffect(() => {
-    AOS.init({
-        duration: 1000, 
-        easing: 'ease-in-out', 
-        once: true, 
-    });
-}, []);
-
   const [currentSlide, setCurrentSlide] = useState(0);
   const slides = [slide1, slide2];
 

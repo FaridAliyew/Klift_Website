@@ -1,18 +1,6 @@
 import React, { useEffect } from 'react'
-import AOS from 'aos';
-import 'aos/dist/aos.css'; 
 
 function Section() {
-
-    useEffect(() => {
-        AOS.init({
-            duration: 1000, 
-            easing: 'ease-in-out', 
-            once: true, 
-        });
-    }, []);
-
-
 
     return (
         <section data-aos="fade-up" className='flex flex-col md:justify-center md:flex-row gap-20 px-20 md:px-24 -mt-12 relative'>

@@ -15,6 +15,7 @@ import Projects from "./pages/Projects";
 import Services from "./pages/Services";
 import AOS from 'aos';
 import { useEffect } from "react";
+import Contact from "./pages/Contact";
 
 function App() {
 
@@ -67,6 +68,15 @@ function App() {
             <Services />
           </>
         } />
+
+        <Route path="/contact" element={
+          <>
+            <Entrance/>
+            <Contact/>
+          </>
+        }/>
+
+
       </Routes>
 
       <Footer />

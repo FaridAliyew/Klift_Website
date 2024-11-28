@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "aos": "^2.3.4",
+    "axios": "^1.7.8",
     "hamburgers": "^1.2.1",
     "react": "^18.3.1",
     "react-countup": "^6.5.3",

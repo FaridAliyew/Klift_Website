@@ -16,12 +16,14 @@ import Services from "./pages/Services";
 import AOS from 'aos';
 import { useEffect } from "react";
 import Contact from "./pages/Contact";
+import Blog from "./pages/Blog";
+import ScrollToTopButton from "./components/ScrollToTopButton";
 
 function App() {
 
   useEffect(() => {
     AOS.init({
-      duration: 1000,
+      duration: 800,
       easing: 'ease-in-out',
       once: true,
     });
@@ -71,14 +73,21 @@ function App() {
 
         <Route path="/contact" element={
           <>
-            <Entrance/>
-            <Contact/>
+            <Entrance />
+            <Contact />
           </>
-        }/>
+        } />
+
+        <Route path="/blog" element={
+          <>
+            <Entrance />
+            <Blog />
+          </>
+        } />
 
 
       </Routes>
-
+      <ScrollToTopButton />
       <Footer />
     </>
   );

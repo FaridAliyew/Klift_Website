@@ -1,11 +1,11 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 
 function SectionThree() {
 
     return (
         <section className='px-5 lg:px-20 mt-72 flex flex-col lg:flex-row gap-20'>
 
-            <div data-aos="fade-up" data-aos-delay="200" className='w-full lg:w-1/2 lg:order-1 order-2'>
+            <div data-aos="fade-up" className='w-full lg:w-1/2 lg:order-1 order-2'>
                 <h1 className='text-2xl uppercase text-gray-400 mb-3'>Perfect</h1>
                 <p className='font-bold text-3xl text-gray-700'>We Make Perfection</p> <br />
 

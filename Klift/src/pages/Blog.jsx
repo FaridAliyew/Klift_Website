@@ -33,7 +33,7 @@ function Blog() {
 
   return (
     <div className="p-8 mt-32">
-      <h1 className="text-3xl font-bold text-gray-700 text-center mb-8">Recent Blog</h1>
+      <h1 className="text-4xl font-bold text-gray-700 text-center mb-8">Recent Blog</h1>
       <p className="text-center mb-20">
         Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
       </p>

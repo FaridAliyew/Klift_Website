@@ -1,7 +1,6 @@
 import React from 'react'
 import about from '../images/about.png'
 
-
 function SectionTwo() {
 
     return (

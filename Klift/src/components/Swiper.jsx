@@ -3,7 +3,6 @@ import { Swiper as SwiperComponent, SwiperSlide } from "swiper/react";
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
-
 import img1 from '../images/person1.png';
 import img2 from '../images/person2.png';
 import img3 from '../images/person3.png';
